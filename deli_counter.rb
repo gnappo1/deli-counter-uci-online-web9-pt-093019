@@ -1,6 +1,6 @@
 # Write your code here.
 def line(people)
-  if people.empty? 
+  if people.size == 0
     "The line is currently empty."
   else
     sentence = "The line is currently: "
