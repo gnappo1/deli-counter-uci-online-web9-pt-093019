@@ -5,6 +5,6 @@ def line(people)
   else
     sentence = "The line is currently: "
     people.each.with_index(1) {|person, i| sentence << "#{i}. #{person}"}
-    sentence
+    puts sentence
   end
 end
