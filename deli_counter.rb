@@ -1,6 +1,6 @@
 # Write your code here.
 def line(people)
-  if people.size == 0
+  if people.empty?
     puts "The line is currently empty."
   else
     sentence = "The line is currently:"
@@ -12,4 +12,8 @@ end
 def take_a_number(line, person)
   line << person
   puts "Welcome, #{person}. You are number #{line.length} in line."
+end
+
+def now_serving(line)
+  line.empty? ? 
 end
