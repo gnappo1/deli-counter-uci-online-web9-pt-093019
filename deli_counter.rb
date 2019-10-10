@@ -15,5 +15,5 @@ def take_a_number(line, person)
 end
 
 def now_serving(line)
-  line.empty? ? 
+  line.empty? ? puts "There is nobody waiting to be served!" : 
 end
