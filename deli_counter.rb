@@ -10,5 +10,6 @@ def line(people)
 end
 
 def take_a_number(line, person)
+  line << person
   
 end
