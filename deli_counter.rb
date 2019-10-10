@@ -8,3 +8,7 @@ def line(people)
     puts sentence
   end
 end
+
+def take_a_number(line, person)
+  
+end
